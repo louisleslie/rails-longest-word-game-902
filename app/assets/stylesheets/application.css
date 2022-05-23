@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+*, a, p, input, label, h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif;
+}
+
+.letters {
+    max-width: 70vw;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.letter {
+    height: 30px;
+    min-width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lavender;
+    border: 1px solid grey;
+}
